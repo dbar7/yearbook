@@ -2,7 +2,7 @@ body {
   width: 100%;
   max-width: 1060px;
   margin: 0 auto;
-background-color: purple;
+background-image: url("splash.jpg");
 font-family: 'Roboto', sans-serif;
 
    }
