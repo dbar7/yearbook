@@ -154,3 +154,13 @@ h3 {
 a {
   font-family: 'Roboto Slab', serif;
 }
+
+::-moz-selection {
+background-color: rgb(57, 255, 20);
+color: #fff;
+}
+
+::selection {
+background-color: rgb(57, 255, 20);
+color: #fff;
+}
