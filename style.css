@@ -2,8 +2,30 @@ body {
   width: 100%;
   max-width: 1060px;
   margin: 0 auto;
-background-image: url("splash.jpg");
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: url(http://getwallpapers.com/wallpaper/full/f/d/6/524315.jpg);
+ animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: rgb(70, 1, 155);}
+      25%  {background: rgb(0, 126, 254);}
+      50%  {background: rgb(0, 187, 0);}
+      75%  {background: rgb(254, 246, 1);}
+      100% {background: rgb(221, 0, 0);}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: rgb(70, 1, 155);}
+      25%  {background: rgb(0, 126, 254);}
+      50%  {background: rgb(0, 187, 0);}
+      75%  {background: rgb(254, 246, 1);}
+      100% {background: rgb(221, 0, 0);}
+    }
 
    }
 nav {
